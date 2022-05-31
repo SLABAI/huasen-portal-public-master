@@ -1,0 +1,78 @@
+[
+  {
+    "path": "/",
+    "redirect": "/home"
+  },
+  {
+    "path": "/home",
+    "name": "Home",
+    "menuCode": "001",
+    "component": "home/Home",
+    "title": "数据表盘",
+    "children": []
+  },
+  {
+    "path": "/error404",
+    "name": "Error404",
+    "menuCode": "000",
+    "component": "error/Error404",
+    "title": "404",
+    "children": []
+  },
+  {
+    "path": "/error403",
+    "name": "Error403",
+    "menuCode": "000",
+    "component": "error/Error403",
+    "title": "403",
+    "children": []
+  },
+  {
+    "path": "/public",
+    "name": "Public",
+    "menuCode": "001",
+    "component": "public/Public",
+    "title": "发布文章",
+    "children": []
+  },
+  {
+    "path": "/sign",
+    "name": "Sign",
+    "menuCode": "000",
+    "component": "sign/Sign",
+    "title": "登陆注册",
+    "children": []
+  },
+  {
+    "path": "/news-manage",
+    "name": "NewsManage",
+    "menuCode": "001",
+    "component": "news-manage/NewsManage",
+    "title": "新闻管理",
+    "children": []
+  },
+  {
+    "path": "/site-manage",
+    "name": "SiteManage",
+    "menuCode": "001",
+    "component": "site-manage/SiteManage",
+    "title": "网链管理",
+    "children": []
+  },
+  {
+    "path": "/user-manage",
+    "name": "UserManage",
+    "menuCode": "001",
+    "component": "user-manage/UserManage",
+    "title": "人员管理",
+    "children": []
+  },
+  {
+    "path": "/file-manage",
+    "name": "FileManage",
+    "menuCode": "001",
+    "component": "file-manage/FileManage",
+    "title": "文件管理",
+    "children": []
+  }
+]

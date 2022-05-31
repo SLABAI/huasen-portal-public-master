@@ -1,0 +1,78 @@
+[
+  {
+    "path": "/",
+    "redirect": "/home"
+  },
+  {
+    "path": "/home",
+    "name": "Home",
+    "menuCode": "000",
+    "component": "home/Home",
+    "title": "花森主页",
+    "children": []
+  },
+  {
+    "path": "/error404",
+    "name": "Error404",
+    "menuCode": "000",
+    "component": "error/Error404",
+    "title": "404",
+    "children": []
+  },
+  {
+    "path": "/error403",
+    "name": "Error403",
+    "menuCode": "000",
+    "component": "error/Error403",
+    "title": "403",
+    "children": []
+  },
+  {
+    "path": "/toy",
+    "name": "Toy",
+    "menuCode": "000",
+    "component": "toy/Toy",
+    "title": "趣物天堂",
+    "children": []
+  },
+  {
+    "path": "/article",
+    "name": "Article",
+    "menuCode": "000",
+    "component": "article/Article",
+    "title": "文章专栏",
+    "children": []
+  },
+  {
+    "path": "/read/:id",
+    "name": "Read",
+    "menuCode": "000",
+    "component": "read/Read",
+    "title": "阅读",
+    "children": []
+  },
+  {
+    "path": "/about",
+    "name": "About",
+    "menuCode": "000",
+    "component": "about/About",
+    "title": "关于我们",
+    "children": []
+  },
+  {
+    "path": "/me",
+    "name": "Me",
+    "menuCode": "001",
+    "component": "me/Me",
+    "title": "个人信息",
+    "children": []
+  },
+  {
+    "path": "/resource",
+    "name": "Resource",
+    "menuCode": "000",
+    "component": "resource/Resource",
+    "title": "垂直资源",
+    "children": []
+  }
+]
